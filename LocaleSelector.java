@@ -22,14 +22,14 @@ class LocaleSelector {
 									{"Top-Brand TV", 2300.00d, 0.4d, "16/05/2025"},
 									{"My Smart-Fridge", 1899.00d, 0.22d, "25/02/2026"}
 									};
-    static Object[][] localData = new Object[4][4];
+    	static Object[][] localData = new Object[4][4];
         
 	static Locale loca = Locale.getDefault();
 	static NumberFormat discountFormatter;
 	static NumberFormat priceFormatter;
 	static Currency localCurrency;
 	static DateTimeFormatter dateFormatter;
-    static Date tempDate;
+    	static Date tempDate;
 	
 	// Set up a means of taking input from the keyboard
 	static InputStreamReader input = new InputStreamReader(System.in);
